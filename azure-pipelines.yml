@@ -15,7 +15,7 @@ steps:
   displayName: 'Install Node.js'
 
 - script:
-    cp -r /home/einfochips/mypipe/_work/9/s/* .
+    cp -r /home/einfochips/mypipe/_work/9/s/package.json .
 
 - script: |
     npm install
